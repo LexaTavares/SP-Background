@@ -1,0 +1,48 @@
+.container-fluid{
+    margin-top: 200px;
+}
+.row{
+    justify-content:space-around;
+}
+.card{
+    background-color: #DBDBDB;
+    display: flex;
+}
+.card h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    margin-top: 25px;
+}
+.card h5{
+   width: 100%;
+   font-family: 'Work Sans', sans-serif; 
+}
+.card p{
+   width: 100%;
+   font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+}
+input{
+    display: none;
+}
+label{
+    background-color: #E9E9E9;
+    height: 3em;
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+    padding: .875rem .75rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.oscuro{
+    transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+    background-color: #474c53;
+    
+}
+.claro{
+    transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+    background-color: ffff;
+}
